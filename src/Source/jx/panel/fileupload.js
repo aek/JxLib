@@ -138,7 +138,7 @@ define("jx/panel/fileupload", ['../../base','../panel','../field/file','../listv
             this.file.addTo(this.domObjA);
     
             this.listView = new ListView({
-                template: '<ul class="jxListView jxList jxUploadQueue"></ul>'
+                template: '<ul class="jxListView jxList jxUploadQueue jxListContainer"></ul>'
                 
             }).addTo(this.domObjA);
     
